@@ -102,7 +102,7 @@ class MultiqcModule(BaseMultiqcModule):
                     all_steps.add(step_name)
 
         # sort all steps
-        order = ["sample", "demultiplexing", "mapping", "cells", "analysis"]
+        order = ["sample", "demultiplexing", "mapping", "cells", "spots", "analysis"]
         weight = {k: i for i, k in enumerate(order)}
         all_steps = list(all_steps)
         all_steps.sort(key=lambda x: weight.get(x, len(order)))
