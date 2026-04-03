@@ -61,7 +61,7 @@ class MultiqcModule(BaseMultiqcModule):
         # extract assay
         try:
             sample_metric = data["sample_summary"]["metric_list"]
-        except KeyError:
+        except: 
             log.warning(f"Could not find metric_list in sample_summary for {f['fn']}")
             return 
         
