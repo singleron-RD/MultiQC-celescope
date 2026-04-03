@@ -239,6 +239,8 @@ cellranger_arc:
   - fn: "*.html"
     contents: "Cell Ranger ARC"
     num_lines: 250
+celescope/data_json:
+  fn: ".data.json"
 cells2stats/run:
   fn: "RunStats.json"
   contents: '"AnalysisID": "c2s.'

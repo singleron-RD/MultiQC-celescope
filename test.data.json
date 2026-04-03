@@ -1,0 +1,63 @@
+{
+    "sample_summary": {
+        "display_title": "Sample",
+        "metric_list": [
+            {
+                "name": "Sample ID",
+                "value": "test_sample",
+                "total": null,
+                "fraction": null,
+                "display": "test_sample",
+                "help_info": null,
+                "show": true
+            },
+            {
+                "name": "Assay",
+                "value": "rna",
+                "total": null,
+                "fraction": null,
+                "display": "rna",
+                "help_info": null,
+                "show": true
+            },
+            {
+                "name": "Chemistry",
+                "value": "GEXSCOPE-V3",
+                "total": null,
+                "fraction": null,
+                "display": "GEXSCOPE-V3",
+                "help_info": "For more information, see <a href=\"https://github.com/singleron-RD/CeleScope/blob/master/doc/chemistry.md\">here</a>.",
+                "show": true
+            },
+        ],
+        "comment_metric_list": [],
+        "help_content": [],
+        "comments": []
+    },
+    "mapping_summary": {
+        "display_title": "Mapping",
+        "metric_list": [
+            {
+                "name": "Reads Mapped To Unique Loci",
+                "value": 85.5,
+                "total": null,
+                "fraction": null,
+                "display": "85.5%",
+                "help_info": "Reads that mapped uniquely to the genome.",
+                "show": true
+            },
+            {
+                "name": "Reads Mapped To Multiple Loci",
+                "value": 10.2,
+                "total": null,
+                "fraction": null,
+                "display": "10.2%",
+                "help_info": "Reads that mapped to multiple loci in the genome.",
+                "show": true
+            }
+        ],
+        "comment_metric_list": [],
+        "help_content": [],
+        "comments": []
+    }
+}
