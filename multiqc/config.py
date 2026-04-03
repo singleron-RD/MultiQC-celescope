@@ -28,7 +28,7 @@ from multiqc.utils.util_functions import strtobool, update_dict
 logger = logging.getLogger(__name__)
 
 # Get the MultiQC version
-version = importlib_metadata.version("multiqc")
+version = importlib_metadata.version("multiqc-celescope")
 short_version = version
 git_hash = None
 git_hash_short = None
